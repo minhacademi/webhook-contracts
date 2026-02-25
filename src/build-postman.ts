@@ -4,7 +4,7 @@ import { join, basename } from "node:path";
 const ROOT = join(import.meta.dir, "..");
 const COLLECTIONS_DIR = join(ROOT, "collections");
 const OUTPUT_DIR = join(ROOT, "postman");
-const COLLECTION_NAME = "Cademi";
+const COLLECTION_NAME = "Cademi Webhooks";
 
 interface PostmanRequest {
   name: string;
