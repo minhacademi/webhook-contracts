@@ -1,0 +1,56 @@
+{
+  "event": "spyhub.diamond.checkout_abandoned",
+  "version": "2",
+  "data": {
+    "user": {
+      "id": 48201,
+      "first_name": "Maria",
+      "name": "Maria Silva",
+      "email": "maria@example.com",
+      "document": "123.456.789-00",
+      "phone": "11999887766",
+      "magic_login_url": "https://app.example.com/login/cross/abc123token",
+      "magic_login_token": "abc123token",
+      "src": {
+        "utm_source": "instagram",
+        "utm_medium": "social",
+        "utm_campaign": "launch-2025",
+        "utm_term": null,
+        "utm_content": null
+      },
+      "access": {
+        "first_at": { "unix": 1740400000, "iso": "2025-02-24T12:00:00+00:00" },
+        "last_at": { "unix": 1740421600, "iso": "2025-02-24T18:00:00+00:00" }
+      },
+      "created": {
+        "at": { "unix": 1740400000, "iso": "2025-02-24T12:00:00+00:00" }
+      }
+    },
+    "framework": {
+      "id": 312,
+      "links": {
+        "login": "https://app.example.com/login/cross/abc123token",
+        "class_1": "https://app.example.com/aula/encryptedToken1",
+        "class_2": "https://app.example.com/aula/encryptedToken2",
+        "class_3": "https://app.example.com/aula/encryptedToken3",
+        "checkout": "https://app.example.com/oferta/encryptedTokenCheckout"
+      },
+      "whatsapp": {
+        "active": true,
+        "message": "Hey Maria! You were so close. Complete your purchase: https://app.example.com/oferta/encryptedTokenCheckout"
+      },
+      "sms": {
+        "active": true,
+        "message": "Maria, complete your purchase! https://app.example.com/oferta/encryptedTokenCheckout"
+      },
+      "email": {
+        "active": true,
+        "sender": "contato@example.com",
+        "reply_to": "contato@example.com",
+        "subject": "You left something behind!",
+        "text": "Hey Maria, you were so close to completing your purchase.",
+        "tags": ["DIAMOND_312_CHECKOUT_ABANDONED", "DIAMOND_CHECKOUT_ABANDONED"]
+      }
+    }
+  }
+}

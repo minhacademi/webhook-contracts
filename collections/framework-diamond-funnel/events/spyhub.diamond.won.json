@@ -1,0 +1,56 @@
+{
+  "event": "spyhub.diamond.won",
+  "version": "2",
+  "data": {
+    "user": {
+      "id": 48201,
+      "first_name": "Maria",
+      "name": "Maria Silva",
+      "email": "maria@example.com",
+      "document": "123.456.789-00",
+      "phone": "11999887766",
+      "magic_login_url": "https://app.example.com/login/cross/abc123token",
+      "magic_login_token": "abc123token",
+      "src": {
+        "utm_source": "instagram",
+        "utm_medium": "social",
+        "utm_campaign": "launch-2025",
+        "utm_term": null,
+        "utm_content": null
+      },
+      "access": {
+        "first_at": { "unix": 1740400000, "iso": "2025-02-24T12:00:00+00:00" },
+        "last_at": { "unix": 1740425200, "iso": "2025-02-24T19:00:00+00:00" }
+      },
+      "created": {
+        "at": { "unix": 1740400000, "iso": "2025-02-24T12:00:00+00:00" }
+      }
+    },
+    "framework": {
+      "id": 312,
+      "links": {
+        "login": "https://app.example.com/login/cross/abc123token",
+        "class_1": "https://app.example.com/aula/encryptedToken1",
+        "class_2": "https://app.example.com/aula/encryptedToken2",
+        "class_3": "https://app.example.com/aula/encryptedToken3",
+        "checkout": "https://app.example.com/oferta/encryptedTokenCheckout"
+      },
+      "whatsapp": {
+        "active": false,
+        "message": ""
+      },
+      "sms": {
+        "active": false,
+        "message": ""
+      },
+      "email": {
+        "active": true,
+        "sender": "contato@example.com",
+        "reply_to": "contato@example.com",
+        "subject": null,
+        "text": null,
+        "tags": ["DIAMOND_312_WON", "DIAMOND_WON"]
+      }
+    }
+  }
+}
